@@ -20,7 +20,7 @@ const ModalProvider = () => {
     return(
         <>
             <AuthModal />
-           <UploadModal />
+            <UploadModal />
         </>
     )
 };

@@ -43,7 +43,7 @@ const Library = () => {
             
             </div>
              <AiOutlinePlus 
-             onClick={onClick}
+             onClick={uploadModal.onOpen}
              size={20}
              className=" text-neutral-400 cursor-pointer hover:text-white transition "
              />
