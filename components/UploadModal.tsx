@@ -47,7 +47,7 @@ const UploadModal = () => {
             const songFile = values.song?.[0];
 
             if (!imageFile || !songFile || !user) {
-                toast.error("Missing fields");
+                toast.error("Você precisa preencher todos os espaços");
                 return;
             }
 
